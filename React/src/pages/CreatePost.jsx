@@ -1,9 +1,13 @@
 import React from "react";
 
-const CreatePost = () => {
+const CreatePost = () => {  
   return (
     <div>
-      CreatePost
+      <form>
+        <input id='Name' type='text' name='name' placeholder="Name"></input>
+        <input id='Alias' type='text' name='alias' placeholder="Alias"></input>
+        <input id='Submit' type='submit' name="submit"></input>
+      </form>
     </div>
   );
 }

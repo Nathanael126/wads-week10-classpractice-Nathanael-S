@@ -9,6 +9,7 @@ import { signOut } from "firebase/auth";
 import { Auth } from "./firebase-config";
 
 const App = () => {
+
   const [isAuth, setIsAuth] = useState(false);
   const SignUserOut = () => {
     localStorage.clear();
